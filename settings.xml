@@ -1,0 +1,24 @@
+<!-- Maven setting.xml for SHANTANU & Team for Matching Engine and HC Net Module
+Configuration written for Nexus Repository.
+This file has to be present on .m2 and project root folder.
+Date : 09-10-2023 -->
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+  <server>
+      <id>hcjavanexus</id>
+      <username>hc-java-team</username>
+      <password>fSIfwUEGgZSM%sIv@d57MvMsC</password>
+    </server>
+  </servers>
+  
+  <mirrors>
+  <mirror>
+      <id>hcjavanexus</id>
+      <name>hcjavanexus</name>
+    <url>http://10.0.1.55:8081/repository/hc-java-matching-engine/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
